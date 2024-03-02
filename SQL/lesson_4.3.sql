@@ -25,4 +25,25 @@ FROM student
 SELECT name AS 姓名, major AS 主修
 FROM student
 
+ASC系統排序
+DESC由大到小排序
 
+SELECT *
+FROM student
+ORDER BY score ASC;
+
+SELECT *
+FROM student
+ORDER BY score DESC;
+
+LIMIT取幾個
+
+SELECT *
+FROM student
+ORDER BY score DESC
+LIMIT 3;
+
+SELECT *
+FROM student
+ORDER BY score 
+LIMIT 2;
