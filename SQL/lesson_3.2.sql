@@ -3,3 +3,13 @@ CREATE TABLE IF NOT EXISTS student(
 	name VARCHAR(20),
 	major VARCHAR(20)
 );
+
+CREATE TABLE IF NOT EXISTS artists(
+	id SERIAL PRIMARY KEY,
+	name VARCHAR
+);
+
+DROP TABLE artists;
+
+SELECT *
+FROM artists;
