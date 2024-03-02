@@ -1,0 +1,3 @@
+CREATE TABLE IF NOT EXISTS city(
+	id SERIAL,
+	name VARCHAR
