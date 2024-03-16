@@ -1,3 +1,4 @@
+/*進站人數最多的一筆*/
 
 select * from gate_count left join stations on 站點編號= 編號
 where 進站人數 =82586
