@@ -3,3 +3,7 @@ CREATE TABLE IF NOT EXISTS student(
 	name VARCHAR(20),
 	major VARCHAR(20)
 );
+
+
+
+--
